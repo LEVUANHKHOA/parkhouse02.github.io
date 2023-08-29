@@ -1,0 +1,81 @@
+@charset "utf-8";
+html{font-family: 'Noto Sans JP', sans-serif;}
+/* top title */
+.top-title{background: linear-gradient(to left, #606060, #606060 25%, #606060 29.5%, #23201d 29%);padding: 80px 0 0 0;}
+.top-title .title{padding: 50px 0 45px 0;letter-spacing: clamp(0.6rem,6px,6px);}
+
+/* sect1 */
+.sect1{background: linear-gradient(to left, #b7b8b9, #b7b8b9 25%, #b7b8b9 29.5%, #c7c7c8 29%);padding: 125px 0 103px 0;}
+.sect1 .box-txt{justify-content: space-between;display: flex;flex-wrap: wrap; max-width: 930px;margin: 105px auto 0;}
+.sect1 .box-txt .item-txt{width: 45%;margin-bottom: 22px;position: relative;}
+.sect1 .box-txt .item-txt::after{position: absolute;content: '';border-bottom: 1px solid #000;width: 93%;bottom: -2px;left: -2px;}
+.sect1 .box-txt .item-txt01::after{left: 20px;}
+.box01 p{padding: 0 0 0 18px;letter-spacing: 3px;}
+.box01 .txt{padding: 13px 0 0 0;}
+.txt--01{font-size: 26px;font-weight: 700;letter-spacing: 3px;line-height: 1.5;}
+.box01 .txt00{display: flex;align-items: center;}
+.txt00 p{font-size: 16px;}
+.txt00 img{padding: 0 0 0 9px;}
+.box .txt--02{padding: 19px 0 0 18px;line-height: 2.5;letter-spacing: 0px;font-size: 16px;}
+.box01 .img-box{column-gap: 18px;margin: 17px 0 0 0;}
+.box01 .box-txt{font-family: 'Ryumin-Pro'}
+.sect1 .box-txt .item-txt .item-txt--2{letter-spacing: 2px;padding-bottom: 7px;line-height: 1;margin-left: -15px;}
+.sect1 .box-txt .item--txt01{padding-right: 40px;}
+.sect1 .box-txt .item--txt02{padding-right: 45px;}
+.sect1 .box-txt .item--txt03{padding-right: 68px;}
+.sect1 .box-txt .item--txt04{padding-right: 24px;}
+.sect1 .box-txt .item-txt01{padding-left: 25px;width: 46%;}
+
+/* sect2 */
+.sect2 .box-item{padding: 140px 0 0 0;}
+.sect2-textBox{padding: 50px 0 0 0;}
+.sect2 .ff-time{padding: 0 0 0 7px;letter-spacing: 3px;}
+.sect2 .txt img{padding: 0 0 0 13px;}
+.sect2 .txt--01{padding: 18px 0 0 5px;}
+.sect2 .box .txt--02{padding: 16px 0 0 0;}
+.sect2 .box-item .item--02{padding-top: 92px;}
+.sect2 .box-item .item--02 .item-detail p{padding: 4px 0 9px 10px;margin-bottom: 12px;letter-spacing: 1px;}
+.sect2 .item .item01{width: 65%;}
+.sect2 .item .item02{width: 33%;}
+/* .sect2 .img02 .itemText{padding: 13px 0 0 23px;} */
+.sect2 .item .itemText{padding: 4px 0 0 23px;}
+.sect2 .item .itemText .Txt01{letter-spacing: 3px;font-size: 18px;}
+.sect2 .item .itemText .num{font-size: 26px;letter-spacing: 2px;padding-left: 7px;}
+.sect2 .item .itemText .min{font-size: 20px;letter-spacing: 2px;}
+.sect2 .item .itemText p{padding: 10px 0;}
+.sect2 .item .itemText .note{padding-top: 10px;display: block;font-size: 12px;}
+/* .sect2 .item .img .itemText{padding-left: 0;} */
+.sect2 .box-item .item--02 .item-detail .img{width: 32.5%;}
+.sect2 .box-item .item--02 .item-detail .img img{width: 100%;}
+.sect2 .box-item .item--02 .item-detail .img .itemText,
+.sect2 .box-item .item--02 .item-detail .img .itemText P{padding: 3px 0 9px 0;}
+/* .sect2 .box-item .item--02 .item-detail .img .itemText */
+.sect2 .img .itemText .note{padding-top: 8px;line-height: 1.2;letter-spacing: 0px;}
+.sect2 .item03{margin: 43px 0 0 0;}
+
+/* sect3 */
+.sect3{margin: 220px 0 0 0;}
+.sect3 .item02{width: 38.5%;padding: 40px 0 0 0;}
+.sect3 .txt--01{padding: 13px 0 0 0;letter-spacing: 2px;line-height: 1.4;}
+/* .sect3 .txt--01 .item-txt{padding-top: 30px;} */
+
+.sect3 .item02 .item-txt p{margin: 17px 0 0 -12px;}
+.sect3 .item02 .item-detail{position: relative;}
+.sect3 .item02 .item-detail::after{ position: absolute;content: '';border-bottom: 1px solid #000;width: 92%; bottom: 0px;}
+.sect3 .item02 .txt01{letter-spacing: 3px;font-size: 25px;}
+.sect3 .item02 .txt02{font-size: 25px;margin-left: -15px;}
+.sect3 .item02 .txt03{margin-left: -10px;}
+.sect3 .item02 .txt04{font-size: 25px;margin-left: -9px;letter-spacing: 2px;}
+.sect3 .item02 .item-txt .txt05{font-size: 40px;margin-left: -4px;letter-spacing: 3px;}
+.sect3 .item02 .item-txt .txt06{font-size: 26px;margin-left: -4px;}
+.sect3 .item02 .item-txt .txt07{margin-left: -13px;letter-spacing: 1.5px;}
+.sect3 .item02 .item-txt .txt08{font-size: 17px;display: block;padding: 0 0 0 12px;margin: -10px 0 0 0;}
+
+/* MEDIA */
+@media (max-width: 1080px) and (min-width: 768px){
+    
+}
+@media screen and (max-width: 768px) {
+    
+ 
+}
